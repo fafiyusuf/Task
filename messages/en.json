@@ -7,7 +7,9 @@
   },
   "hero": {
     "tagline": "THE BUSINESS OPERATING SYSTEM FOR THE GULF",
-    "mainHeading": "Stop managing chaos.\nStart managing revenue.",
+    "mainHeading": "Stop managing chaos. Start\nmanaging revenue.",
+    "mainHeadingLine1": "Stop managing chaos. Start",
+    "mainHeadingLine2": "managing revenue.",
     "subHeading": "The AI-native OS built for WhatsApp-first sales teams.",
     "buttonText": "Talk to ASTRAH",
     "featureLabelPart1": "Not A CRM.",
