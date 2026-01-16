@@ -33,7 +33,7 @@ export default function Header() {
             <button
               className="hidden md:inline-block px-5 py-2 border border-white text-white rounded hover:bg-white/10 transition-colors font-normal text-sm"
             >
-              Talk to <span className="font-semibold">ASTRAH</span>
+              {t("talkToAstrahPart1")} <span className="font-semibold">{t("talkToAstrahPart2")}</span>
             </button>
             <MobileMenu />
           </div>
@@ -69,6 +69,12 @@ function MobileMenuPanel() {
             {item.label}
           </a>
         ))}
+        
+        {/* Language Toggle */}
+        <div className="pt-2">
+          <LanguageToggle />
+        </div>
+        
         <button
           className="w-full mt-4 px-4 py-2.5 rounded-full font-medium transition-colors text-black"
           style={{ backgroundColor: "#00d4ff" }}

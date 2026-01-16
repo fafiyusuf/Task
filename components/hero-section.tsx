@@ -49,8 +49,8 @@ export default function HeroSection() {
               className="text-[32px] md:text-[56px] lg:text-[72px] mb-4 md:mb-5 leading-[120%] text-[#FFFFFF] tracking-[0%] font-semibold"
               style={{ fontFamily: "'SF Pro', -apple-system, BlinkMacSystemFont, sans-serif", fontWeight: 600 }}
             >
-              <span className="hidden md:inline">Stop managing chaos. Start<br />managing revenue.</span>
-              <span className="md:hidden">Stop managing<br />chaos. Start<br />managing revenue.</span>
+              <span className="hidden md:inline">{t("mainHeadingLine1")}<br />{t("mainHeadingLine2")}</span>
+              <span className="md:hidden">{t("mainHeadingMobileLine1")}<br />{t("mainHeadingMobileLine2")}<br />{t("mainHeadingMobileLine3")}</span>
             </h1>
 
             {/* Sub Heading */}
@@ -63,7 +63,7 @@ export default function HeroSection() {
               className="inline-flex items-center justify-center px-5 py-2.5 text-sm font-normal rounded text-black transition-all hover:opacity-90 w-fit"
               style={{ backgroundColor: "#00d4ff" }}
             >
-              Talk to <span className="font-semibold ml-1">ASTRAH</span>
+              {t("buttonTextPart1")} <span className="font-semibold ms-1">{t("buttonTextPart2")}</span>
             </button>
 
             {/* Feature Box - Desktop only */}

@@ -3,15 +3,22 @@
     "product": "المنتج",
     "pricing": "التسعير",
     "migration": "الهجرة",
-    "talkToAstrah": "تحدث إلى ASTRAH"
+    "talkToAstrah": "تحدث إلى ASTRAH",
+    "talkToAstrahPart1": "تحدث إلى",
+    "talkToAstrahPart2": "ASTRAH"
   },
   "hero": {
     "tagline": "نظام التشغيل التجاري للخليج",
     "mainHeading": "توقّف عن إدارة الفوضى. ابدأ\nإدارة الإيرادات.",
     "mainHeadingLine1": "توقّف عن إدارة الفوضى. ابدأ",
     "mainHeadingLine2": "إدارة الإيرادات.",
+    "mainHeadingMobileLine1": "توقّف عن",
+    "mainHeadingMobileLine2": "إدارة الفوضى. ابدأ",
+    "mainHeadingMobileLine3": "إدارة الإيرادات.",
     "subHeading": "نظام تشغيل ذكي مبني على الذكاء الاصطلاعي لفرق المبيعات التي تعتمد على واتساب أولاً.",
     "buttonText": "تحدث إلى ASTRAH",
+    "buttonTextPart1": "تحدث إلى",
+    "buttonTextPart2": "ASTRAH",
     "featureLabelPart1": "ليس نظام CRM.",
     "featureLabelPart2": "بل نظام متكامل.",
     "featureText": "مصمم لطريقة عمل الأعمال الحقيقية في دول مجلس التعاون الخليجي ومنطقة الشرق الأوسط وشمال أفريقيا."
