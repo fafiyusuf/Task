@@ -39,19 +39,18 @@ export default function HeroSection() {
             {/* Tagline */}
             <div className="flex items-center gap-2 mb-4">
               <span className="inline-block w-[6px] h-[6px] bg-[#FFFFFF] rounded-full shrink-0" />
-              <span className="text-[13px] md:text-[14px] text-gray-400 font-normal tracking-[0.2em] uppercase whitespace-nowrap">
+              <span className="text-[13px] md:text-[14px] text-gray-400 font-normal tracking-[0.2em] uppercase">
                 {t("tagline")}
               </span>
             </div>
 
             {/* Main Heading */}
             <h1 
-              className="text-3xl md:text-[56px] lg:text-[72px] mb-4 md:mb-5 leading-[120%] text-[#FFFFFF] tracking-[0%] font-semibold"
+              className="text-[32px] md:text-[56px] lg:text-[72px] mb-4 md:mb-5 leading-[120%] text-[#FFFFFF] tracking-[0%] font-semibold"
               style={{ fontFamily: "'SF Pro', -apple-system, BlinkMacSystemFont, sans-serif", fontWeight: 600 }}
             >
-              <span className="md:whitespace-nowrap">{t("mainHeadingLine1")}</span>
-              <br />
-              <span className="md:whitespace-nowrap">{t("mainHeadingLine2")}</span>
+              <span className="hidden md:inline">Stop managing chaos. Start<br />managing revenue.</span>
+              <span className="md:hidden">Stop managing<br />chaos. Start<br />managing revenue.</span>
             </h1>
 
             {/* Sub Heading */}
