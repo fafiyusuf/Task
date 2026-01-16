@@ -32,14 +32,14 @@ export default function HeroSection() {
         </div>
       </div>
 
-      <div className="max-w-7xl mx-auto px-4 md:px-12 lg:px-20 pt-28 md:pt-40 lg:pt-44 pb-12 md:pb-20 relative z-10 w-full">
+      <div className="max-w-7xl mx-auto px-5 md:px-12 lg:px-20 pt-24 md:pt-40 lg:pt-44 pb-8 md:pb-20 relative z-10 w-full">
         <div className="relative flex flex-col">
           {/* Left content (Right for RTL) */}
           <div className="flex flex-col justify-center md:pe-4 relative z-20 md:max-w-2xl w-full text-start">
             {/* Tagline */}
-            <div className="flex items-center gap-2 mb-4">
-              <span className="inline-block w-[6px] h-[6px] bg-[#FFFFFF] rounded-full shrink-0" />
-              <span className="text-[13px] md:text-[14px] text-gray-400 font-normal tracking-[0.2em] uppercase">
+            <div className="flex items-center gap-2 mb-5">
+              <span className="inline-block w-[6px] h-[6px] bg-[#00d4ff] rounded-full shrink-0" />
+              <span className="text-[12px] md:text-[14px] text-gray-400 font-normal tracking-[0.15em] uppercase">
                 {t("tagline")}
               </span>
             </div>
@@ -78,13 +78,13 @@ export default function HeroSection() {
           </div>
 
           {/* Mobile brain image */}
-          <div className="md:hidden w-[400px] h-[400px] mx-auto mt-6">
+          <div className="md:hidden text-center mt-8">
             <Image
               src="/brain.png"
               alt="Neural network brain visualization"
-              width={400}
-              height={400}
-              className="w-[400px] h-[400px] object-contain"
+              width={300}
+              height={300}
+              className="inline-block"
               priority
               quality={90}
             />
@@ -92,8 +92,8 @@ export default function HeroSection() {
         </div>
 
         {/* Feature Box - Mobile only (below brain) */}
-        <div className="md:hidden mt-6 border-s-4 ps-4 border-[#FFFFFF]">
-          <p className="font-medium mb-2 text-[#FFFFFF] text-base">
+        <div className="md:hidden mt-8 border-s-4 ps-4 border-[#FFFFFF]">
+          <p className="font-semibold mb-2 text-[#FFFFFF] text-lg">
             {t("featureLabelPart1")} <span style={{ color: "#00d4ff" }}>{t("featureLabelPart2")}</span>
           </p>
           <p className="text-gray-400 text-sm leading-relaxed">{t("featureText")}</p>
