@@ -1,10 +1,10 @@
-import { LanguageWrapper } from "@/components/language-wrapper"
 import { Analytics } from "@vercel/analytics/next"
 import type { Metadata } from "next"
 import { NextIntlClientProvider } from "next-intl"
 import { getLocale, getMessages } from "next-intl/server"
 import { Geist, Geist_Mono } from "next/font/google"
 import type React from "react"
+import { LanguageWrapper } from "../components/language-wrapper"
 import "./globals.css"
 
 const _geist = Geist({ subsets: ["latin"] })

@@ -12,21 +12,24 @@ export default function Header() {
   const t = useTranslations("header")
 
   return (
-    <header className="fixed top-0 w-full z-50 bg-black/95 backdrop-blur-sm border-b border-cyan-950">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16 md:h-20">
+    <header className="fixed top-0 w-full z-50 bg-transparent">
+      <div className="max-w-7xl mx-auto px-8 lg:px-16 py-6">
+        <div className="flex items-center justify-between">
           {/* Left section */}
-          <div className="flex items-center gap-8">
+          <div className="flex items-center">
             <Logo />
+          </div>
+
+          {/* Center section - Navigation */}
+          <div className="hidden md:flex items-center">
             <Navigation />
           </div>
 
           {/* Right section */}
-          <div className="flex items-center gap-4 md:gap-6">
+          <div className="flex items-center gap-6">
             <LanguageToggle />
             <button
-              className="hidden md:inline-block px-5 py-2 border border-[#00d4ff] text-[#00d4ff] rounded hover:bg-[#00d4ff]/10 transition-colors font-medium text-sm"
-              style={{ color: "#00d4ff", borderColor: "#00d4ff" }}
+              className="hidden md:inline-block px-5 py-2 border border-white text-white rounded hover:bg-white/10 transition-colors font-medium text-sm"
             >
               {t("talkToAstrah")}
             </button>

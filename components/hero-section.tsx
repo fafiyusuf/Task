@@ -7,12 +7,12 @@ export default function HeroSection() {
   const t = useTranslations("hero")
 
   return (
-    <section className="relative min-h-screen pt-24 md:pt-0 flex items-center justify-center overflow-hidden bg-black">
+    <section className="relative min-h-screen flex items-center overflow-hidden bg-black">
       {/* Background gradient overlay */}
       <div className="absolute inset-0 bg-gradient-to-b from-cyan-950/10 to-black pointer-events-none" />
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-0 relative z-10 w-full">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16 items-center min-h-screen">
+      <div className="max-w-7xl mx-auto px-8 lg:px-16 pt-32 pb-20 relative z-10 w-full">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16 items-center">
           {/* Left content */}
           <div className="flex flex-col justify-center">
             {/* Tagline */}
@@ -38,7 +38,7 @@ export default function HeroSection() {
             </button>
 
             {/* Feature Box */}
-            <div className="mt-16 border-s-4 ps-4 border-white">
+            <div className="mt-20 border-s-4 ps-4 border-white">
               <p className="font-medium mb-2 text-white">
                 {t("featureLabelPart1")} <span style={{ color: "#00d4ff" }}>{t("featureLabelPart2")}</span>
               </p>
@@ -47,7 +47,7 @@ export default function HeroSection() {
           </div>
 
           {/* Right visual */}
-          <div className="relative h-96 md:h-full flex items-center justify-center">
+          <div className="relative h-96 md:h-[600px] flex items-center justify-center">
             <div className="relative w-full max-w-2xl">
               {/* Glow effect */}
               <div
