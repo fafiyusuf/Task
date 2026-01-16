@@ -12,8 +12,8 @@ export default function Header() {
   const t = useTranslations("header")
 
   return (
-    <header className="fixed top-0 w-full z-50 bg-transparent">
-      <div className="max-w-7xl mx-auto px-6 md:px-8 lg:px-16 py-4 md:py-6">
+    <header className="fixed top-0 left-0 right-0 z-[100] bg-black border-b border-white/10">
+      <div className="max-w-7xl mx-auto px-2 md:px-6 lg:px-12 py-4 md:py-6">
         <div className="flex items-center justify-between">
           {/* Left section */}
           <div className="flex items-center">
@@ -31,9 +31,9 @@ export default function Header() {
               <LanguageToggle />
             </div>
             <button
-              className="hidden md:inline-block px-5 py-2 border border-white text-white rounded hover:bg-white/10 transition-colors font-medium text-sm"
+              className="hidden md:inline-block px-5 py-2 border border-white text-white rounded hover:bg-white/10 transition-colors font-normal text-sm"
             >
-              {t("talkToAstrah")}
+              Talk to <span className="font-semibold">ASTRAH</span>
             </button>
             <MobileMenu />
           </div>
